@@ -1,0 +1,341 @@
+/*------------------
+    google fonts
+-------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+
+/*-------------------------
+    common styles
+--------------------------*/
+body{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+}
+h2{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+}
+h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.common-btn{
+    height: 44px;
+    background-color: #E02C6D;
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 10px 24px 10px 24px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.common-btn:hover{
+    background-color: #740830;
+}
+
+
+/*------------------------
+    header and slider
+-------------------------*/
+header{
+    background-color: blueviolet;
+    padding: 17.99px 0 86px 0;
+}
+
+/*-----------------------------
+    navigation and login button
+-------------------------------*/
+.main-header{
+    width: 1160px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.main-nav{
+    width: 100%;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar{
+    width: 587px;
+    height: 24px;
+}
+.nav-bar nav{
+    width: 100%;
+    height: 100%;
+}
+.nav-bar nav ul{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar nav ul li{
+    height: 100%;
+}
+.nav-bar nav ul li a{
+    text-decoration: none;
+    color: rgb(238, 226, 226);
+    transition: .3s ease;
+}
+.nav-bar nav ul li a:hover{
+    color: #fff;
+}
+.login-btn{
+    width: 123px;
+    height: 100%;
+}
+.login-btn button{
+    width: 100%;
+}
+
+
+/*--------------------
+    slider section
+---------------------*/
+.slider{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 69.38px;
+}
+.slider:hover .sldr-img img{
+    transform: scale(1.1) rotate(5deg);
+}
+.slider-content{
+    width: 485px;
+}
+.slider-h1 h1{
+    color: #fff;
+    margin-bottom: 27px;
+}
+.slider-btn button{
+    width: 168px;
+}
+.slider-image{
+    width: 556.01px;
+}
+.sldr-img{
+    width: 100%;
+}
+.sldr-img img{
+    max-width: 100%;
+    transition: .3s ease;
+}
+
+/*------------------------
+    main section
+------------------------*/
+main{
+    padding: 70px 0 158px 0;
+}
+
+
+/*------------------------
+    player section
+------------------------*/
+.all-main-sec{
+    width: 1050px;
+}
+.top-players{
+    width: 100%;
+}
+.players{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 27px 30px;
+}
+.player{
+    width: 330px;
+    height: 474px;
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player-img{
+    width: 100%;
+}
+.player-img img{
+    width: 100%;
+    height: 256px;
+}
+.player-info h2{
+    color: #18191F
+    ;
+}
+.player-info p{
+    color: #6C6C6C;
+}
+
+
+/*----------------------
+    all highligth
+----------------------*/
+.all-highligth{
+    width: 108.5%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 165px;
+}
+.highligth-content{
+    width: 466px;
+}
+.highligth-h1 h1{
+    color: #0A0826;
+    margin-bottom: 8px;
+}
+.highligth-p p{
+    color: #6C6C6C;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+.highligth-image{
+    width: 567px;
+}
+.hlts-img{
+    width: 100%;
+}
+.hlts-img img{
+    width: 100%;
+    height: 427px;
+}
+
+
+/*--------------------------------------------------
+       top five players in the copa amirica2021
+--------------------------------------------------*/
+.top-five{
+    width: 108.5%;
+    margin-top: 165px;
+}
+.five-players{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.best-player{
+    width: 40%;
+    margin: 27px 2.5%;
+    padding: 2.5%;
+    border-radius: 10%;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.best-player-image {
+    width: 100%;
+    text-align: center;
+}
+.best-player-image img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.best-player-info{
+    width: 100%;
+}
+.best-player-info h2, h3{
+    color: #0A0826;
+    margin: 8px 0;
+}
+.best-player-info p{
+    color: #6C6C6C;
+}
+
+
+/*------------------
+    contact
+------------------*/
+.main-contact{
+    width: 108.5%;
+    margin-top: 165px;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+.cntc_frm{
+    width: 40%;
+    display: flex;
+    padding: 2.5%;
+    border-radius: 5%;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.cntc_frm form{
+    display: flex;
+    flex-direction: column;
+}
+form label{
+    font-weight: 700;
+}
+form input{
+    padding: 15px 30px;
+    margin-bottom: 15px;
+}
+.or_cntc_frm{
+    width: 40%;
+    height: 200px;
+    padding: 2.5%;
+    border-radius: 5%;
+    background-color: #E02C6D;
+    color: #fff;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.or_cntc_frm a{
+    color: #fff;
+    font-size: 2em;
+    margin-right: 5px;
+}
+
+/*-------------------
+    footer
+-------------------*/
+.main-footer{
+    text-align: center;
+}
+.footer-image{
+    margin-bottom: 20px;
+}
+.footer-image img{
+    width: 483.87px;
+    height: 110px;
+}
+.footer-icon a{
+    color: #6C6C6C;
+    padding: 15px;
+    border-radius: 50%;
+    margin-right: 14px;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+.footer-copyright{
+    padding-top: 20px;
+    padding-bottom: 63px;
+}
+
+
+/*----------------------------
+    media quary
+--------------------------=*/
+
+
+/* phone */
+@media screen and (max-width: 688px) {
+    .main-header{
+        display: none;
+    }
+  }
